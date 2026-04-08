@@ -1,0 +1,466 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.3/staging' branch; Version is '6000.3.10f1 (e35f0c77bd8e) revision 14901004'; Using compiler version '194234433'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26200) Core' Language: 'ko' Physical Memory: 16092 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-user1" at "2026-04-06T12:36:29.3924697Z"
+Date: 2026-04-06T12:36:29Z
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.3.10f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/university/3-1/unity/My project
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+59026
+-licensingIpc
+LicenseClient-user1
+-job-worker-count
+3
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name
+AssetImport
+Successfully changed project path to: C:/university/3-1/unity/My project
+C:/university/3-1/unity/My project
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+Player connection [20424]  Target information:
+
+Player connection [20424]  * "[IP] 192.168.156.154 [Port] 0 [Flags] 2 [Guid] 1862987938 [EditorId] 1862987938 [Version] 1048832 [Id] WindowsEditor(7,user) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [20424] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [20424] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 3
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 5.29 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.3.10f1 (e35f0c77bd8e)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/university/3-1/unity/My project/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) Iris(R) Xe Graphics (ID=0x9a49)
+    Vendor:   Intel
+    VRAM:     8046 MB
+    Driver:   30.0.100.9836
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56420
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004079 seconds.
+- Loaded All Assemblies, in  1.029 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.014 seconds
+Domain Reload Profiling: 2038ms
+	BeginReloadAssembly (359ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (2ms)
+	RebuildCommonClasses (93ms)
+	RebuildNativeTypeToScriptingClass (31ms)
+	initialDomainReloadingComplete (111ms)
+	LoadAllAssembliesAndSetupDomain (431ms)
+		LoadAssemblies (350ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (422ms)
+			TypeCache.Refresh (419ms)
+				TypeCache.ScanAssembly (393ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (1014ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (928ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (93ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (247ms)
+			ProcessInitializeOnLoadAttributes (398ms)
+			ProcessInitializeOnLoadMethodAttributes (182ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+[Licensing::Module] Licensing is not yet initialized.
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.17.4+4293ba1
+  Session Id:              366afb92c9d141d9878a689025ade3ae
+  Correlation Id:          4984a6da499de69ba140457fda825e65
+  External correlation Id: 7874435384023267199
+  Machine Id:              C1ZVK9z2D31bbh52NIoWn/j5yLE=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-user1" (connect: 0.00s, validation: 0.00s, handshake: 5.12s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-user1-notifications" at "2026-04-06T12:36:34.5117811Z"
+[Licensing::Module] Licensing Background thread has ended after 5.12s
+[Licensing::Module] Licensing is initialized (took 1.35s).
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 14569720283810-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+- Loaded All Assemblies, in  2.893 seconds
+Refreshing native plugins compatible for Editor in 1.85 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.283 seconds
+Domain Reload Profiling: 4171ms
+	BeginReloadAssembly (1834ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (139ms)
+	RebuildCommonClasses (71ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (57ms)
+	LoadAllAssembliesAndSetupDomain (908ms)
+		LoadAssemblies (666ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (514ms)
+			TypeCache.Refresh (416ms)
+				TypeCache.ScanAssembly (395ms)
+			BuildScriptInfoCaches (82ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (1284ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1048ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (302ms)
+			ProcessInitializeOnLoadAttributes (647ms)
+			ProcessInitializeOnLoadMethodAttributes (75ms)
+			AfterProcessingInitializeOnLoad (12ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 2.92 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3898 unused Assets / (0.9 MB). Loaded Objects now: 4488.
+Memory consumption went from 94.5 MB to 93.5 MB.
+Total: 15.377300 ms (FindLiveObjects: 0.995700 ms CreateObjectMapping: 1.265100 ms MarkObjects: 10.681600 ms  DeleteObjects: 2.433200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 364.753059 seconds.
+  path: Assets/Particle.prefab
+  artifactKey: Guid(4b8ce85b68426af4fa67070e1d0b2cd5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Particle.prefab using Guid(4b8ce85b68426af4fa67070e1d0b2cd5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4b2c3d33cab96ec70e593cb03de9ef7c') in 0.2664149 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Script/MouseDown.cs
+  artifactKey: Guid(07979976b355f4c40b4db1df7d9c5ee9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Script/MouseDown.cs using Guid(07979976b355f4c40b4db1df7d9c5ee9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '45194b3a84a3529daff02538fd476718') in 0.0272318 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 173.934127 seconds.
+  path: Assets/Models/OneBlock (1).prefab
+  artifactKey: Guid(ea222fb219abcd841beb5a26ac1a3680) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/OneBlock (1).prefab using Guid(ea222fb219abcd841beb5a26ac1a3680) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd76af79f562732c246e96d6b911993ff') in 0.3122439 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 229
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.629825 seconds.
+  path: Assets/Models/OneBlock (1).prefab
+  artifactKey: Guid(ea222fb219abcd841beb5a26ac1a3680) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Models/OneBlock (1).prefab using Guid(ea222fb219abcd841beb5a26ac1a3680) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '95a910af17aea8035c50f9dd1379945f') in 0.0376592 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 82
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.035169 seconds.
+  path: Assets/Models/CityBlock.prefab
+  artifactKey: Guid(ea222fb219abcd841beb5a26ac1a3680) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/CityBlock.prefab using Guid(ea222fb219abcd841beb5a26ac1a3680) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '15d0766e3e898685c99cf093ff5fa913') in 0.1195911 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 229
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.822847 seconds.
+  path: Assets/Models/CityBlock.prefab
+  artifactKey: Guid(ea222fb219abcd841beb5a26ac1a3680) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Models/CityBlock.prefab using Guid(ea222fb219abcd841beb5a26ac1a3680) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'cbd6cc66e3b4d759acd3ba93858071f4') in 0.0366916 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 82
+
+========================================================================
+Received Import Request.
+  Time since last request: 34.937409 seconds.
+  path: Assets/Models/OneBlock.prefab
+  artifactKey: Guid(2d51ee06f9228ab4b8a65db2114c2090) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/OneBlock.prefab using Guid(2d51ee06f9228ab4b8a65db2114c2090) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b8988f7eeadb7a6833ce454bfde3d566') in 0.1444697 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 229
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.836769 seconds.
+  path: Assets/Models/OneBlock.prefab
+  artifactKey: Guid(2d51ee06f9228ab4b8a65db2114c2090) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Models/OneBlock.prefab using Guid(2d51ee06f9228ab4b8a65db2114c2090) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5b9fc5adcba71dd2e21945432c33b090') in 0.0391693 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 82
+
+========================================================================
+Received Import Request.
+  Time since last request: 1746.198492 seconds.
+  path: Assets/Models/Meshes/Meshes/road_crossing.fbx
+  artifactKey: Guid(817f3b5a85cc0444c9ce907761d24933) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Meshes/Meshes/road_crossing.fbx using Guid(817f3b5a85cc0444c9ce907761d24933) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '276740a2e6fd510292eaff45480e7044') in 0.1877509 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.751083 seconds.
+  path: Assets/Models/Meshes/Meshes/road_crossing.fbx
+  artifactKey: Guid(817f3b5a85cc0444c9ce907761d24933) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Models/Meshes/Meshes/road_crossing.fbx using Guid(817f3b5a85cc0444c9ce907761d24933) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ad5bb33d19564a7d36d974109515afea') in 0.0868984 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 88.762285 seconds.
+  path: Assets/Models/Meshes/Meshes/road_crossing.fbx
+  artifactKey: Guid(817f3b5a85cc0444c9ce907761d24933) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Meshes/Meshes/road_crossing.fbx using Guid(817f3b5a85cc0444c9ce907761d24933) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1f7bf4a1e86727c45ca46684dfc929ef') in 0.0927926 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.841415 seconds.
+  path: Assets/Models/Meshes/Meshes/road_crossing.fbx
+  artifactKey: Guid(817f3b5a85cc0444c9ce907761d24933) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Models/Meshes/Meshes/road_crossing.fbx using Guid(817f3b5a85cc0444c9ce907761d24933) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c1b56a39e47f5c5c1e2bddf1b2fafdef') in 0.030861 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 56.911511 seconds.
+  path: Assets/Models/Meshes/Meshes/road_crossing.fbx
+  artifactKey: Guid(817f3b5a85cc0444c9ce907761d24933) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Meshes/Meshes/road_crossing.fbx using Guid(817f3b5a85cc0444c9ce907761d24933) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ebe004ebbac4939062fe1b4a24bbaf78') in 0.1165358 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.835869 seconds.
+  path: Assets/Models/Meshes/Meshes/road_crossing.fbx
+  artifactKey: Guid(817f3b5a85cc0444c9ce907761d24933) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Models/Meshes/Meshes/road_crossing.fbx using Guid(817f3b5a85cc0444c9ce907761d24933) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '69d85746960ea4dcea50ad6889153d32') in 0.0519686 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 28.950392 seconds.
+  path: Assets/Models/Meshes/Meshes/road_crossing.fbx
+  artifactKey: Guid(817f3b5a85cc0444c9ce907761d24933) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Meshes/Meshes/road_crossing.fbx using Guid(817f3b5a85cc0444c9ce907761d24933) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '11d97bbc2dafd919f74ec7b92357454d') in 0.0999523 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.847222 seconds.
+  path: Assets/Models/Meshes/Meshes/road_crossing.fbx
+  artifactKey: Guid(817f3b5a85cc0444c9ce907761d24933) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Models/Meshes/Meshes/road_crossing.fbx using Guid(817f3b5a85cc0444c9ce907761d24933) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '82ca24793120b575265db40e76377d9a') in 0.0474929 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 151.824528 seconds.
+  path: Assets/Level01.unity
+  artifactKey: Guid(d813f9e1c5574e44b80f364cae00f05c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Level01.unity using Guid(d813f9e1c5574e44b80f364cae00f05c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '56928a7f72be3829f8ef326de06ed38d') in 0.0260129 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 692.128919 seconds.
+  path: Assets/Models/Meshes/Meshes/road_crossing.fbx
+  artifactKey: Guid(817f3b5a85cc0444c9ce907761d24933) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Meshes/Meshes/road_crossing.fbx using Guid(817f3b5a85cc0444c9ce907761d24933) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '03d1e9af80356feb6739a3e21f9ec28f') in 0.1195981 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.813972 seconds.
+  path: Assets/Models/Meshes/Meshes/road_crossing.fbx
+  artifactKey: Guid(817f3b5a85cc0444c9ce907761d24933) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Models/Meshes/Meshes/road_crossing.fbx using Guid(817f3b5a85cc0444c9ce907761d24933) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0fa143876f30dc36067654d6ba1ab4b4') in 0.052229 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.672879 seconds.
+  path: Assets/Models/Meshes/Meshes/road_crossing.fbx
+  artifactKey: Guid(817f3b5a85cc0444c9ce907761d24933) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Meshes/Meshes/road_crossing.fbx using Guid(817f3b5a85cc0444c9ce907761d24933) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '74e035d647b796f2c6c3f57ffd49f389') in 0.0693778 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.871394 seconds.
+  path: Assets/Models/Meshes/Meshes/road_crossing.fbx
+  artifactKey: Guid(817f3b5a85cc0444c9ce907761d24933) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Models/Meshes/Meshes/road_crossing.fbx using Guid(817f3b5a85cc0444c9ce907761d24933) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd184b0627e4603f9e99a8efdc7ff75a2') in 0.0588514 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.679807 seconds.
+  path: Assets/Models/Meshes/Meshes/road_crossing.fbx
+  artifactKey: Guid(817f3b5a85cc0444c9ce907761d24933) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Meshes/Meshes/road_crossing.fbx using Guid(817f3b5a85cc0444c9ce907761d24933) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '07f81dcad20316e031013e4bb311ad8a') in 0.0713217 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.857585 seconds.
+  path: Assets/Models/Meshes/Meshes/road_crossing.fbx
+  artifactKey: Guid(817f3b5a85cc0444c9ce907761d24933) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Models/Meshes/Meshes/road_crossing.fbx using Guid(817f3b5a85cc0444c9ce907761d24933) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '73de14a859c652fec179e26af6a9b234') in 0.0468033 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.940901 seconds.
+  path: Assets/Models/Meshes/Meshes/road_crossing.fbx
+  artifactKey: Guid(817f3b5a85cc0444c9ce907761d24933) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Meshes/Meshes/road_crossing.fbx using Guid(817f3b5a85cc0444c9ce907761d24933) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5556f3dd9655e54e28c560e1af6d9b53') in 0.1158936 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.839817 seconds.
+  path: Assets/Models/Meshes/Meshes/road_crossing.fbx
+  artifactKey: Guid(817f3b5a85cc0444c9ce907761d24933) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Models/Meshes/Meshes/road_crossing.fbx using Guid(817f3b5a85cc0444c9ce907761d24933) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4e475a163036706582fd488cb085a788') in 0.046657 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.715072 seconds.
+  path: Assets/Models/Meshes/Meshes/road_crossing.fbx
+  artifactKey: Guid(817f3b5a85cc0444c9ce907761d24933) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Meshes/Meshes/road_crossing.fbx using Guid(817f3b5a85cc0444c9ce907761d24933) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '44afd2c694239e783fbbf1a231f0fc35') in 0.1123567 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.835857 seconds.
+  path: Assets/Models/Meshes/Meshes/road_crossing.fbx
+  artifactKey: Guid(817f3b5a85cc0444c9ce907761d24933) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Models/Meshes/Meshes/road_crossing.fbx using Guid(817f3b5a85cc0444c9ce907761d24933) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '18cb8005c0f6f54bae8a2740fe1b9ef4') in 0.0428124 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 139.128966 seconds.
+  path: Assets/Models/Meshes/Meshes/road.fbx
+  artifactKey: Guid(ddc5996ad8348d04e96c14c1affaa2f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Meshes/Meshes/road.fbx using Guid(ddc5996ad8348d04e96c14c1affaa2f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '056c3d092a349aa117007ca40ec60ce0') in 0.1320594 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.808933 seconds.
+  path: Assets/Models/Meshes/Meshes/road.fbx
+  artifactKey: Guid(ddc5996ad8348d04e96c14c1affaa2f1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Models/Meshes/Meshes/road.fbx using Guid(ddc5996ad8348d04e96c14c1affaa2f1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'cc770a632bd2e1a542942194312f5c4b') in 0.0434496 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 83.518640 seconds.
+  path: Assets/Level01.unity
+  artifactKey: Guid(d813f9e1c5574e44b80f364cae00f05c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Level01.unity using Guid(d813f9e1c5574e44b80f364cae00f05c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0dd5eec13394a3d19c050e078e45d52e') in 0.0382439 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 114.327174 seconds.
+  path: Assets/Level01.unity
+  artifactKey: Guid(d813f9e1c5574e44b80f364cae00f05c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Level01.unity using Guid(d813f9e1c5574e44b80f364cae00f05c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd6b6fbe0bf09fca9239ed6d406a13360') in 0.0315874 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
